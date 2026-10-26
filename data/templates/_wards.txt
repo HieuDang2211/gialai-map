@@ -1,0 +1,135 @@
+23602|Phường An Phú|Thắng Lợi, Chư Á, An Phú
+23563|Phường Diên Hồng|Yên Đỗ, Ia Kring, Diên Hồng, Diên Phú
+23586|Phường Hội Phú|Trà Bá, Chi Lăng, Hội Phú
+23575|Phường Pleiku|Tây Sơn (thành phố Pleiku), Hội Thương, Hoa Lư, Phù Đổng, Trà Đa
+23584|Phường Thống Nhất|Đống Đa (thành phố Pleiku), Yên Thế, Thống Nhất
+23614|Phường An Bình|An Bình, Tân An, Cư An
+23617|Phường An Khê|Ngô Mây, Tây Sơn (thị xã An Khê), An Phú, An Phước, An Tân, Thành An
+21910|Phường An Nhơn|Đập Đá, Nhơn Mỹ, Nhơn Hậu
+21925|Phường An Nhơn Bắc|Nhơn Thành, Nhơn Phong, Nhơn Hạnh
+21934|Phường An Nhơn Đông|Nhơn Hưng, Nhơn An
+21943|Phường An Nhơn Nam|Nhơn Hòa, Nhơn Thọ
+24044|Phường Ayun Pa|Đoàn Kết, Sông Bờ, Cheo Reo, Hòa Bình
+21907|Phường Bình Định|Bình Định, Nhơn Khánh, Nhơn Phúc
+21640|Phường Bồng Sơn|Hoài Đức, Bồng Sơn
+21664|Phường Hoài Nhơn|Hoài Thanh, Tam Quan Nam, Hoài Thanh Tây
+21655|Phường Hoài Nhơn Bắc|Tam Quan Bắc, Hoài Sơn, Hoài Châu Bắc
+21670|Phường Hoài Nhơn Đông|Hoài Hương, Hoài Hải, Hoài Mỹ
+21673|Phường Hoài Nhơn Nam|Hoài Tân, Hoài Xuân
+21661|Phường Hoài Nhơn Tây|Hoài Hảo, Hoài Phú
+21583|Phường Quy Nhơn|Đống Đa (thành phố Quy Nhơn), Hải Cảng, Thị Nại, Trần Phú
+21553|Phường Quy Nhơn Bắc|Trần Quang Diệu, Nhơn Phú
+21601|Phường Quy Nhơn Đông|Nhơn Bình, Nhơn Hội, Nhơn Lý, Nhơn Hải
+21592|Phường Quy Nhơn Nam|Ngô Mây (thành phố Quy Nhơn), Nguyễn Văn Cừ, Quang Trung, Ghềnh Ráng
+21589|Phường Quy Nhơn Tây|Bùi Thị Xuân, Phước Mỹ
+21637|Phường Tam Quan|Tam Quan, Hoài Châu
+23954|Xã Al Bá|Ayun (huyện Chư Sê), Kông Htok, Al Bá
+21697|Xã Ân Hảo|Ân Hảo Tây, Ân Hảo Đông, Ân Mỹ
+21628|Xã An Hòa|An Hòa, An Quang, An Nghĩa (1 phần)
+21609|Xã An Lão|An Lão (thị trấn), An Tân, An Hưng
+21769|Xã An Lương|Mỹ Chánh, Mỹ Thành, Mỹ Cát
+21940|Xã An Nhơn Tây|Nhơn Lộc, Nhơn Tân
+21622|Xã An Toàn|An Toàn, An Nghĩa (1 phần)
+21715|Xã Ân Tường|Ân Tường Tây, Ân Hữu, Đak Mang
+21616|Xã An Vinh|An Trung (huyện An Lão), An Dũng, An Vinh
+23798|Xã Ayun|Đak Jơ Ta, Ayun (huyện Mang Yang)
+23896|Xã Bàu Cạn|Thăng Hưng, Bình Giáo, Bàu Cạn
+23590|Xã Biển Hồ|Nghĩa Hưng, Chư Đang Ya, Hà Bầu, Biển Hồ
+21829|Xã Bình An|Tây Vinh, Tây Bình, Bình Hòa, Bình Thành
+21733|Xã Bình Dương|Bình Dương (thị trấn), Mỹ Lợi, Mỹ Phong
+21817|Xã Bình Hiệp|Bình Thuận, Bình Tân, Tây An
+21820|Xã Bình Khê|Tây Giang, Tây Thuận
+21835|Xã Bình Phú|Vĩnh An, Bình Tường, Tây Phú
+23947|Xã Bờ Ngoong|Bar Măih, Ia Tiêm, Chư Pơng, Bờ Ngoong
+21997|Xã Canh Liên|Canh Liên (1 phần)
+22006|Xã Canh Vinh|Canh Vinh, Canh Hiển, Canh Liên (1 phần), Canh Hiệp (1 phần)
+21880|Xã Cát Tiến|Cát Tiến (thị trấn), Cát Thành, Cát Hải
+23851|Xã Chơ Long|Đăk Pơ Pho, Chơ GLong
+24049|Xã Chư A Thai|Ayun Hạ, Ia Ake, Chư A Thai
+23830|Xã Chư Krey|An Trung (huyện Kông Chro), Chư Krey
+23722|Xã Chư Păh|Phú Hòa (thị trấn), Nghĩa Hòa, Hòa Phú
+23887|Xã Chư Prông|Chư Prông (thị trấn), Ia Phìn, Ia Kly, Ia Drang
+23942|Xã Chư Pưh|Nhơn Hòa (thị trấn), Chư Don, Ia Phang
+23941|Xã Chư Sê|Chư Sê (thị trấn), Dun, Ia Blang, Ia Pal, Ia Glai
+23629|Xã Cửu An|Tú An, Xuân An, Song An, Cửu An
+23677|Xã Đak Đoa|Đak Đoa (thị trấn), Tân Bình, Glar
+23995|Xã Đak Pơ|Đak Pơ (thị trấn), Hà Tam, An Thành, Yang Bắc
+23644|Xã Đak Rong|Kon Pne, Đak Rong
+23683|Xã Đak Sơmei|Hà Đông, Đak Sơmei
+23842|Xã Đăk Song|Đăk Pling, Đăk Song
+21859|Xã Đề Gi|Cát Khánh (thị trấn), Cát Minh, Cát Tài
+23857|Xã Đức Cơ|Chư Ty (thị trấn), Ia Kriêng
+23611|Xã Gào|Ia Kênh, Ia Pếch, Gào
+21871|Xã Hòa Hội|Cát Hanh, Cát Hiệp
+21688|Xã Hoài Ân|Tăng Bạt Hổ (thị trấn), Ân Phong, Ân Đức, Ân Tường Đông
+21868|Xã Hội Sơn|Cát Lâm, Cát Sơn
+23799|Xã Hra|Đak Ta Ley, Hra
+23710|Xã Ia Băng|Ia Băng (huyện Đak Đoa), Adơk, Ia Pết
+23911|Xã Ia Boòng|Ia O (huyện Chư Prông), Ia Me, Ia Boòng
+23788|Xã Ia Chia|Ia Chia
+23869|Xã Ia Dơk|Ia Kla, Ia Dơk
+23872|Xã Ia Dom|Ia Dom
+24100|Xã Ia Dreh|Ia Rmok, Krông Năng, Ia Dreh
+23764|Xã Ia Grai|Ia Kha (thị trấn), Ia Bă, Ia Grăng
+24061|Xã Ia Hiao|Chrôh Pơnan, Ia Peng, Ia Hiao
+23971|Xã Ia Hrú|Ia Dreng, Ia Rong, HBông, Ia Hrú
+23767|Xã Ia Hrung|Ia Sao (huyện Ia Grai), Ia Yok, Ia Dêr, Ia Hrung
+23728|Xã Ia Khươl|Đăk Tơ Ver, Hà Tây, Ia Khươl
+23977|Xã Ia Ko|Ia Hlốp, Ia Hla, Ia Ko
+23776|Xã Ia Krái|Ia Tô, Ia Khai, Ia Krái
+23866|Xã Ia Krêl|Ia Lang, Ia Din, Ia Krêl
+23935|Xã Ia Lâu|Ia Piơr, Ia Lâu
+23986|Xã Ia Le|Ia Blứ, Ia Le
+23734|Xã Ia Ly|Ia Ly (thị trấn), Ia Mơ Nông, Ia Kreng
+23938|Xã Ia Mơ|Ia Mơ
+23884|Xã Ia Nan|Ia Nan
+23782|Xã Ia O|Ia O
+24022|Xã Ia Pa|Ia Mrơn, Kim Tân, Ia Trôk
+23749|Xã Ia Phí|Ia Ka, Ia Nhin, Ia Phí
+23926|Xã Ia Pia|Ia Ga, Ia Vê, Ia Pia
+23881|Xã Ia Pnôn|Ia Pnôn
+23917|Xã Ia Púch|Ia Púch
+24065|Xã Ia Rbol|Chư Băh, Ia Rbol
+24112|Xã Ia Rsai|Chư RCăm, Chư Gu, Ia Rsai
+24073|Xã Ia Sao|Ia Sao (thị xã Ayun Pa), Ia Rtô
+23908|Xã Ia Tôr|Ia Băng (huyện Chư Prông), Ia Bang, Ia Tôr
+24028|Xã Ia Tul|Chư Mố, Ia Broăi, Ia Kdăm, Ia Tul
+23638|Xã Kbang|Kbang (thị trấn), Lơ Ku, Đak Smar
+23714|Xã KDang|Hnol, Trang, KDang
+21727|Xã Kim Sơn|Ân Nghĩa, Bok Tới
+23818|Xã Kon Chiêng|Đak Trôi, Kon Chiêng
+23701|Xã Kon Gang|Đak Krong, Hneng, Nam Yang, Kon Gang
+23674|Xã Kông Bơ La|Đông, Nghĩa An, Kông Bơ La
+23824|Xã Kông Chro|Kông Chro (thị trấn), Yang Trung, Yang Nam
+23650|Xã Krong|Krong
+23812|Xã Lơ Pang|Đê Ar, Kon Thụp, Lơ Pang
+23794|Xã Mang Yang|Kon Dơng (thị trấn), Đăk Yă, Đak Djrăng, Hải Yang
+21901|Xã Ngô Mây|Cát Hưng, Cát Thắng, Cát Chánh
+21607|Xã Nhơn Châu|Nhơn Châu
+21853|Xã Phù Cát|Ngô Mây (thị trấn), Cát Trinh, Cát Tân
+21730|Xã Phù Mỹ|Phù Mỹ (thị trấn), Mỹ Quang, Mỹ Chánh Tây
+21739|Xã Phù Mỹ Bắc|Mỹ Đức, Mỹ Châu, Mỹ Lộc
+21751|Xã Phù Mỹ Đông|Mỹ An, Mỹ Thọ, Mỹ Thắng
+21775|Xã Phù Mỹ Nam|Mỹ Tài, Mỹ Hiệp
+21757|Xã Phù Mỹ Tây|Mỹ Trinh, Mỹ Hòa
+24043|Xã Phú Thiện|Phú Thiện (thị trấn), Ia Sol, Ia Piar, Ia Yeng
+24076|Xã Phú Túc|Phú Túc (thị trấn), Phú Cần, Chư Ngọc, Ia Mlah, Đất Bằng
+24013|Xã Pờ Tó|Chư Răng, Pờ Tó
+23647|Xã Sơn Lang|Sơ Pai, Sơn Lang
+23839|Xã SRó|Đăk Kơ Ning, SRó
+21808|Xã Tây Sơn|Phú Phong (thị trấn), Tây Xuân, Bình Nghi
+23668|Xã Tơ Tung|Kông Lơng Khơng, Tơ Tung
+21952|Xã Tuy Phước|Tuy Phước (thị trấn), Diêu Trì (thị trấn), Phước Thuận, Phước Nghĩa, Phước Lộc
+21964|Xã Tuy Phước Bắc|Phước Hiệp, Phước Hưng, Phước Quang
+21970|Xã Tuy Phước Đông|Phước Sơn, Phước Hòa, Phước Thắng
+21985|Xã Tuy Phước Tây|Phước An, Phước Thành
+24109|Xã Uar|Ia Rsươm, Chư Drăng, Uar
+21994|Xã Vân Canh|Vân Canh (thị trấn), Canh Thuận, Canh Hòa, Canh Hiệp (1 phần)
+21703|Xã Vạn Đức|Ân Sơn, Ân Tín, Ân Thạnh
+21805|Xã Vĩnh Quang|Vĩnh Thuận, Vĩnh Hòa, Vĩnh Quang
+21787|Xã Vĩnh Sơn|Vĩnh Kim, Vĩnh Sơn
+21786|Xã Vĩnh Thạnh|Vĩnh Thạnh (thị trấn), Vĩnh Hảo
+21796|Xã Vĩnh Thịnh|Vĩnh Hiệp, Vĩnh Thịnh
+21892|Xã Xuân An|Cát Nhơn, Cát Tường
+24007|Xã Ya Hội|Phú An, Ya Hội
+23833|Xã Ya Ma|Đăk Tơ Pang, Kông Yang, Ya Ma

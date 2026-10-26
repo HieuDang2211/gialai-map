@@ -1,0 +1,13 @@
+{
+  "name": "Bản đồ số Gia Lai",
+  "short_name": "Bản đồ Gia Lai",
+  "description": "Tìm địa điểm du lịch, ăn uống, lưu trú và tra cứu xã/phường Gia Lai.",
+  "lang": "vi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

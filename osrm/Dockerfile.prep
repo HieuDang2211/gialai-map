@@ -1,0 +1,7 @@
+# Bước chuẩn bị dữ liệu OSM cho OSRM: tải bản trích Việt Nam (Geofabrik) rồi cắt theo khung Gia Lai bằng osmium
+FROM debian:bookworm-slim
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends osmium-tool wget ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+COPY prepare.sh /usr/local/bin/prepare.sh
+ENTRYPOINT ["sh", "/usr/local/bin/prepare.sh"]

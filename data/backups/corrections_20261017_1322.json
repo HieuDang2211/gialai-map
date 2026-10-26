@@ -1,0 +1,640 @@
+{
+ "note": "auto = do verify-locations.py sinh ra (chạy lại sẽ ghi đè). manual = người kiểm tra ghi tay, ưu tiên cao nhất: {\"<id>\": {\"status\": \"corrected\", \"lng\": ..., \"lat\": ..., \"note\": \"...\"}} hoặc {\"status\": \"hidden\", \"note\": \"không tồn tại\"}",
+ "reference": "OpenStreetMap (ODbL) – trích từ data/osrm gialai.osm.pbf",
+ "manual": {},
+ "auto": {
+  "bdc7ee0c-b604-4ee5-ab07-a05b8933a268": {
+   "status": "unverified",
+   "name": "Hàng Thông Trăm Tuổi - Biển Hồ Tea"
+  },
+  "072a3601-2e88-486f-8d86-e1d517c9685b": {
+   "status": "unverified",
+   "name": "Raca farm"
+  },
+  "ab6cd552-9b65-4ae8-86da-f3d908d36c7d": {
+   "status": "unverified",
+   "name": "Passata Bistro"
+  },
+  "66fe0d98-0942-4d2a-b3d2-b0299fb2bb64": {
+   "status": "unverified",
+   "name": "Ngon Avatar Coffee - Tăng Bạt Hổ"
+  },
+  "4c57d3fc-fc4a-409c-b520-57a3f79d7d49": {
+   "status": "unverified",
+   "name": "The Wind Coffee"
+  },
+  "784cb853-365d-45e5-b78e-daba65c16519": {
+   "status": "unverified",
+   "name": "KAP Bistro"
+  },
+  "af32cfeb-5c5e-4662-8908-836a1bc292b1": {
+   "status": "unverified",
+   "name": "Chè Bà Dũng"
+  },
+  "75e466c6-be2d-4a28-898c-098b9549b2ec": {
+   "status": "unverified",
+   "name": "Chill Lưng Chừng"
+  },
+  "62e63dfd-a11d-405f-af30-f87435da2ecc": {
+   "status": "unverified",
+   "name": "Tiệm Cà phê Ngã Ba Đường"
+  },
+  "f0379413-18a9-4a83-981f-0ea3ae01e3dd": {
+   "status": "unverified",
+   "name": "Ocha House Pleiku"
+  },
+  "a2a5f524-ff7f-474b-8dbe-ff423e09c362": {
+   "status": "unverified",
+   "name": "ÁNH QUANG VEGAN RESTAURANT & COFFEE"
+  },
+  "fda381cf-e10c-4419-972f-8c28b7aab915": {
+   "status": "unverified",
+   "name": "L’amant Café Gia Lai"
+  },
+  "a6f02c34-3fed-4dc6-9e74-26614ea2e5f1": {
+   "status": "unverified",
+   "name": "Phía Sau Nhà Caffe & Kids"
+  },
+  "7aca617d-5dbf-408f-9d06-e7ccc9c740f7": {
+   "status": "unverified",
+   "name": "Tiệm cà phê Ngày Bình Yên"
+  },
+  "2513444e-e139-4f64-a42f-d8dd81d32c46": {
+   "status": "unverified",
+   "name": "Chợ Ia Nhin"
+  },
+  "cb463d29-d289-4fa0-bc30-cd199db499d3": {
+   "status": "unverified",
+   "name": "Chợ Chư Prông"
+  },
+  "533f2cc2-6337-4540-b666-c1c4a79e63c2": {
+   "status": "unverified",
+   "name": "Chợ Biển Hồ"
+  },
+  "37393624-b721-441a-a136-dc5d81e5d9bc": {
+   "status": "verified",
+   "ref": "node/1380856181",
+   "distance_m": 5,
+   "name": "Chợ trung tâm thành phố Pleiku"
+  },
+  "a08921df-0ff9-4d7c-bf84-e8316e4f2656": {
+   "status": "unverified",
+   "name": "Chợ Trà Bá"
+  },
+  "f6de3ec8-2fcd-4ab1-84e6-3b0256fb5a26": {
+   "status": "unverified",
+   "name": "Chợ Nguyễn Trãi (chợ Bà Định)"
+  },
+  "e196bf2f-bdb3-49b1-a5e5-1dbeb209e555": {
+   "status": "unverified",
+   "name": "Chợ Kông Chro"
+  },
+  "2c97df02-2a2a-4371-9c4a-a15fd685824a": {
+   "status": "unverified",
+   "name": "Chợ Hoa Lư mới"
+  },
+  "a56f4a7b-14f8-4e56-a5a1-fd86b391a775": {
+   "status": "verified",
+   "ref": "way/1340529392",
+   "distance_m": 24,
+   "name": "Chợ Ia Grai"
+  },
+  "cc535157-e44f-4a5f-bfab-e02f6ded87da": {
+   "status": "unverified",
+   "name": "Chợ Đêm Pleiku (Mới)"
+  },
+  "aa7c34af-5f08-4ef5-9d48-7b226ec6910b": {
+   "status": "unverified",
+   "name": "Chợ Đêm Pleiku Gia Lai"
+  },
+  "c944eb78-4682-4cad-9d3d-e495355e3f01": {
+   "status": "unverified",
+   "name": "Chợ Yaly"
+  },
+  "39f4f36f-a81d-43eb-86d0-8242a3b77901": {
+   "status": "unverified",
+   "name": "Chợ Kbang"
+  },
+  "586724c1-ff1e-4061-9516-87bb14d0c3b7": {
+   "status": "verified",
+   "ref": "way/1396505822",
+   "distance_m": 12,
+   "name": "Chợ Chư Sê"
+  },
+  "844b0f98-3d3f-48f9-ae29-4f80485a6a6f": {
+   "status": "unverified",
+   "name": "Chợ Thống Nhất"
+  },
+  "896b5cfe-db4c-4b4d-b867-f465d26d6efc": {
+   "status": "unverified",
+   "name": "Gà nướng Plei Têng"
+  },
+  "ee3e8ae2-9c35-4c4a-a65b-eaf115459456": {
+   "status": "verified",
+   "ref": "node/5081735522",
+   "distance_m": 9,
+   "name": "Phở Ngọc Sơn"
+  },
+  "8773d131-8471-4b54-8e30-8c67275f4205": {
+   "status": "unverified",
+   "name": "Nhà Hàng Cơm Quê Gia Lai"
+  },
+  "df59bcf0-1b3f-4fc2-b51f-0368a7c10897": {
+   "status": "unverified",
+   "name": "Nhà Hàng Hải Sản DI CI LA"
+  },
+  "5dce0b1b-13b5-417a-88f2-321c406cdbfe": {
+   "status": "unverified",
+   "name": "Dê Danh Huyền"
+  },
+  "3e4b0910-3e2f-4490-ab07-e46991a485cd": {
+   "status": "unverified",
+   "name": "Nhà Hàng Tiên sơn"
+  },
+  "a50fccde-ea76-4f23-bbc0-68f2ff4767f5": {
+   "status": "unverified",
+   "name": "Đồng Tâm quán"
+  },
+  "549530a1-934b-45f3-9ba6-b82524a0a4f9": {
+   "status": "unverified",
+   "name": "HẢI SẢN HƯƠNG BIỂN QUÁN"
+  },
+  "41296623-3821-4d35-ab7b-59812f9d2980": {
+   "status": "unverified",
+   "name": "Quán Dê Tươi Ayunpa"
+  },
+  "c4078edb-2c33-4ea0-81f7-76a48c2db06e": {
+   "status": "unverified",
+   "name": "Quán Gà nướng cơm lam Biển Hồ"
+  },
+  "a69d3e2e-98a1-4293-beae-17c556fa8293": {
+   "status": "unverified",
+   "name": "Quán Nhậu Biển Hồ"
+  },
+  "5f5f8162-7855-43a7-9c44-3cca2f310b89": {
+   "status": "unverified",
+   "name": "Tiệm Ăn Âu Việt"
+  },
+  "4bd92669-050c-4794-8144-e3c8cf28485a": {
+   "status": "unverified",
+   "name": "Quán Long Giang Gia Lai"
+  },
+  "5c995657-0769-4de2-854d-6e5ce550703d": {
+   "status": "unverified",
+   "name": "Ẩm Thực Plây Cồng Chiêng"
+  },
+  "da2a15fb-a998-4230-997c-1bb7e7366868": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Xã Mang Yang) 9.2 km, không có tham chiếu OSM",
+   "name": "Quán ăn sáng Toàn Lộc - Phở Khô, Bò Kho"
+  },
+  "fdd88110-36e7-422c-885a-25eb0615164c": {
+   "status": "unverified",
+   "name": "Quán Cơm Tấm Mê Kông"
+  },
+  "4d0214c3-2d14-4c58-9590-6d73641c511d": {
+   "status": "unverified",
+   "name": "Khách Sạn 555"
+  },
+  "4efa80d2-3c52-48ae-a89b-8da70ae04eff": {
+   "status": "unverified",
+   "name": "Quán BÊN HỒ"
+  },
+  "26b9a642-72a8-4d61-b443-e15f682c4318": {
+   "status": "unverified",
+   "name": "Ẩm Thực Kơ Nia - Cơm Lam Gà Nướng"
+  },
+  "a4aa593d-92ba-4b7c-a258-6d7ae7141be6": {
+   "status": "unverified",
+   "name": "Restaurant COONG CHAY"
+  },
+  "935b77a4-1bf6-4060-9a4d-c77d8e4248ad": {
+   "status": "unverified",
+   "name": "Bếp Ăn Ngon"
+  },
+  "4adcde7e-fbf2-451a-95b6-6546586d8e56": {
+   "status": "unverified",
+   "name": "Quán Phở Khô 333"
+  },
+  "caca4b03-5a5d-4904-98ca-266cb4e09c61": {
+   "status": "unverified",
+   "name": "Tiệm nướng sốm rau"
+  },
+  "9d1081bd-bdb4-4e3d-93be-2c2eafcf7704": {
+   "status": "unverified",
+   "name": "Hoàng Gia Garden Restaurant"
+  },
+  "a898f961-165c-4063-97f8-88ca5e8436c8": {
+   "status": "unverified",
+   "name": "PHỞ KHÔ MINH - PHỞ 2 TÔ GIA LAI"
+  },
+  "9bda16e1-d716-4439-97f9-7a41395f1f01": {
+   "status": "unverified",
+   "name": "Cơm gà hải nam"
+  },
+  "4793b0c2-31af-4b37-a6f3-40ab094db12e": {
+   "status": "unverified",
+   "name": "Nhà hàng cơm niêu Diễm"
+  },
+  "2d20b497-3548-4031-9c63-ce13f47b43a7": {
+   "status": "unverified",
+   "name": "Gà Nướng Cơm Lam Rơ Châm Rô"
+  },
+  "83baada9-07ba-4f4b-b8f3-ce12fdec7bf7": {
+   "status": "unverified",
+   "name": "Nhà Hàng Ẩm Thực Pleiku Phố"
+  },
+  "89d5f7b6-b433-4432-a0dc-a0d884db0d55": {
+   "status": "unverified",
+   "name": "Quán bà Xưa - Bánh bèo thập cẩm, Bánh bột lọc nóng."
+  },
+  "50c75ea7-edce-4ad9-b02a-c635b88a3e9a": {
+   "status": "unverified",
+   "name": "Nhà Hàng Lạc Viên Pleiku"
+  },
+  "f90afe6e-06ce-48e3-8827-93079818a772": {
+   "status": "unverified",
+   "name": "Pleiku xanh"
+  },
+  "6b77f48e-a561-4865-8d64-a6b453438b64": {
+   "status": "unverified",
+   "name": "Nhà Hàng Ý Thiếp"
+  },
+  "7c599938-bdb4-4e01-bc88-4d474b51283c": {
+   "status": "unverified",
+   "name": "Phở Khô Gia Lai - Phở Bò Nam Định - Hùng Ròm - Có bán Tết!"
+  },
+  "57492a7a-1396-4819-afdd-96497290db6e": {
+   "status": "unverified",
+   "name": "Quán Lụi Bà Sáu"
+  },
+  "03a6c1e6-fa57-407b-807b-ecb8c96edc62": {
+   "status": "unverified",
+   "name": "Gà Nướng Ia Gui"
+  },
+  "72e3a391-fa72-4588-9ac9-0106e693b58f": {
+   "status": "unverified",
+   "name": "cơm lam gà nướng Bazan Pleiku"
+  },
+  "1a27af8f-e1bb-4682-a981-823cfb2a6475": {
+   "status": "unverified",
+   "name": "Nhà Hàng Phố Biển"
+  },
+  "1550a2c4-447a-493e-a468-b0e946d9c71c": {
+   "status": "unverified",
+   "name": "Bún Phương Gia Lai"
+  },
+  "5b929277-2eb1-44be-9e55-09191aa5395d": {
+   "status": "unverified",
+   "name": "Tiệm nướng La La Land"
+  },
+  "523f6b5e-441c-443f-996a-efc4956b7969": {
+   "status": "unverified",
+   "name": "Đặc sản Dê Krông Pa"
+  },
+  "b8d4d7d4-679a-4a6e-b244-aa1d61a9ed6d": {
+   "status": "verified",
+   "ref": "node/5740175402",
+   "distance_m": 43,
+   "name": "Nhà Hàng Biển Hồ Xanh"
+  },
+  "09f5bb79-f843-4425-a5ea-2b4b56c462a2": {
+   "status": "unverified",
+   "name": "Rông Ana - Cà Phê & Nhà Hàng -Cơm Đồng Bào"
+  },
+  "766bfab7-b570-4e85-b9ea-b4460c842fa7": {
+   "status": "unverified",
+   "name": "Lộc Vừng"
+  },
+  "f16985b7-ef3c-443f-850a-aaa49b69d493": {
+   "status": "unverified",
+   "name": "Cơm Niêu Ngọc Lâm"
+  },
+  "9e96630f-5d4a-43f8-947e-9f4f6a4dff7c": {
+   "status": "unverified",
+   "name": "Núi Lửa Chư Pah"
+  },
+  "9b5a93b0-72f3-4943-9d6b-16ab389fbe21": {
+   "status": "unverified",
+   "name": "Quán Shock Bờ Kè"
+  },
+  "69058a7c-2c84-4888-bb49-20247501ea67": {
+   "status": "unverified",
+   "name": "Trang Trại & Ẩm Thực Hươu Sao"
+  },
+  "3be364d4-eeb2-4f09-b3b7-c32eeae73f49": {
+   "status": "verified",
+   "ref": "way/1527617596",
+   "distance_m": 63,
+   "name": "Nhà hàng Trầu Cau Hưng Long"
+  },
+  "1aac3e64-a769-4432-90bf-9a97339a9328": {
+   "status": "unverified",
+   "name": "Cơm Lam Gà Nướng : H ‘Bla T’rưng"
+  },
+  "b523bbea-2c08-42e5-ae9e-e6ebdc38c480": {
+   "status": "unverified",
+   "name": "Quán Phở Nữ"
+  },
+  "d956f203-7b22-4c5d-acc8-9b29d5cd9a20": {
+   "status": "unverified",
+   "name": "Nhà hàng Ngói Nâu."
+  },
+  "dacd2b10-9d3a-4812-afac-80cfc1afc881": {
+   "status": "unverified",
+   "name": "Quán 61"
+  },
+  "ba11f97f-1032-465d-be0e-6bc2e03d1f72": {
+   "status": "unverified",
+   "name": "GoGi House"
+  },
+  "c6298413-131b-4554-9725-70cedf22cc3a": {
+   "status": "unverified",
+   "name": "Kichi Kichi Gia Lai"
+  },
+  "cb85cbe5-5883-453f-9704-9be6410a425b": {
+   "status": "unverified",
+   "name": "Cơm Niêu Ngon 3 Miền"
+  },
+  "e2443500-9505-466c-8e7b-751591abbb43": {
+   "status": "unverified",
+   "name": "LẨU CÔ DUYÊN - GIA LAI"
+  },
+  "73e8a08d-ee8b-4727-b309-d6bfcd1719a2": {
+   "status": "unverified",
+   "name": "Lẩu Nhỏ 1975"
+  },
+  "fb544942-c5f3-4a03-9c02-efba824d6a19": {
+   "status": "unverified",
+   "name": "Bún cua Chi"
+  },
+  "7e2e63c4-0c5c-41ca-bed5-2b5f06b29ffa": {
+   "status": "unverified",
+   "name": "Gà Nướng Plit"
+  },
+  "453f92c3-11e2-498d-9dd1-bda6e2978d65": {
+   "status": "unverified",
+   "name": "Cơm Niêu Mộc"
+  },
+  "c4471e5f-1b30-4567-9e9d-127e7876f854": {
+   "status": "verified",
+   "ref": "way/1527616420",
+   "distance_m": 29,
+   "name": "Century Restaurant"
+  },
+  "96ab44de-9c50-4597-8c01-b05eb9f7f426": {
+   "status": "unverified",
+   "name": "Nhà hàng sân vườn Thiên Thanh"
+  },
+  "a5362e7b-c55d-4b77-89a7-cc7ac4fa0066": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Phường Thống Nhất) 1.7 km, không có tham chiếu OSM",
+   "name": "Mì Cay Kitachi Gia Lai"
+  },
+  "162587c1-13a5-4979-90cb-f91d20c71a78": {
+   "status": "unverified",
+   "name": "Nhà Hàng Tơ Nưng-Biển Hồ"
+  },
+  "942fa85c-5105-4909-bf18-7db10e4c3557": {
+   "status": "unverified",
+   "name": "Quán Nhà Tôi"
+  },
+  "afde4033-0b8e-47e2-9008-5bbbb274e127": {
+   "status": "unverified",
+   "name": "Phở khô Hồng"
+  },
+  "d65bb2f7-7826-4fd7-94d6-8c1e9e61bfbb": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ QUÝ MAI"
+  },
+  "575b2cdc-9311-4c14-9b99-a241371b73ce": {
+   "status": "unverified",
+   "name": "Khách Sạn Xuân Lành"
+  },
+  "1e2995d0-b66a-48d3-ba0e-280b91510dc8": {
+   "status": "unverified",
+   "name": "Khách sạn Hoàng Long"
+  },
+  "0285112c-f331-42b9-80a5-f820be63156a": {
+   "status": "unverified",
+   "name": "Khách Sạn Thành Đạt"
+  },
+  "92f6f9c1-675b-41c4-9716-5788acfa0b23": {
+   "status": "verified",
+   "ref": "node/7090257288",
+   "distance_m": 29,
+   "name": "Lake View Homestay"
+  },
+  "b0df8b2e-8a00-4980-a439-2f4431d62764": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ Bảo Long"
+  },
+  "c7528630-6d7c-43c3-81ca-e127ee30ab69": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ Hoàng Dung"
+  },
+  "6576b771-3574-4bd3-b33d-621179cf3882": {
+   "status": "unverified",
+   "name": "NHÀ NGHỈ CƯỜNG THỂ - CƯỜNG THỂ MOTEL AN KHÊ GIA LAI"
+  },
+  "ca7b65ce-738a-4f6c-9aaf-7bc609409e89": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ Trung Hương"
+  },
+  "9097ede3-3e8e-46cc-8101-ae48c2aa6e04": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ Phương Anh"
+  },
+  "41a572d6-1fe5-4560-a049-b681322d0b83": {
+   "status": "unverified",
+   "name": "Nhà nghỉ như ý"
+  },
+  "f4479645-c4db-4e2f-b223-edae0775c7c5": {
+   "status": "unverified",
+   "name": "Khách sạn An Khê"
+  },
+  "e78e2bd4-1179-4cef-8832-c73dc4f50f7c": {
+   "status": "unverified",
+   "name": "Nhà nghỉ - Hotel Valentine"
+  },
+  "c6c46286-0ca9-41f9-86e2-410c49058582": {
+   "status": "unverified",
+   "name": "The Stay Home"
+  },
+  "8abe44c2-9268-4840-968d-09893b57710e": {
+   "status": "unverified",
+   "name": "Nhà nghỉ Hàm Rồng"
+  },
+  "26236164-43cf-47f0-92cc-46b19b418f00": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ HƯƠNG QUÊ"
+  },
+  "42917bb5-e4df-413a-9c58-6bec9e4e32c0": {
+   "status": "unverified",
+   "name": "Nhà khách T500/QĐ3"
+  },
+  "d0577037-1043-4697-b551-2ad56e8d532a": {
+   "status": "unverified",
+   "name": "Anna's Homestay"
+  },
+  "622fd4a8-89cf-4194-8984-7b7bc388c20e": {
+   "status": "unverified",
+   "name": "Nhà nghỉ AN NHIÊN"
+  },
+  "10368873-fba5-4cfb-868c-ca122b8f53d5": {
+   "status": "unverified",
+   "name": "Khách sạn Hùng Vương"
+  },
+  "a765c2ac-7bd6-4cfa-8656-64dffb30ec1e": {
+   "status": "unverified",
+   "name": "KHÁCH SẠN THÀNH LUÂN"
+  },
+  "c8c8d657-5d10-4678-9ec1-aaef5e58b289": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ 47"
+  },
+  "e0409dc2-c20a-4899-9128-b6fe2f0b76c7": {
+   "status": "unverified",
+   "name": "Anh Nguyên Hotel"
+  },
+  "24af89b3-3c0e-4d97-b6d4-2fd06d5a88d5": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ An Bình"
+  },
+  "d23419d9-dfc1-4c9f-b81a-d229dc4d9fd8": {
+   "status": "unverified",
+   "name": "Nhà nghỉ 123 HƯNG THỊNH có bãi đỗ ô tô."
+  },
+  "4d4c6307-a641-4c59-a82d-8eddb652c7b7": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ Đông Nam Á"
+  },
+  "a79b01be-37aa-49ca-bab3-35063f594c57": {
+   "status": "unverified",
+   "name": "Nhà Nghỉ Chư Sê"
+  },
+  "0cc01ede-5e6a-4023-9dfe-d4896843dd30": {
+   "status": "unverified",
+   "name": "Chùa Minh Thành"
+  },
+  "6543a49a-532d-4dc7-863d-864c40669825": {
+   "status": "verified",
+   "ref": "way/151182943",
+   "distance_m": 26,
+   "name": "Công Viên Diên Hồng"
+  },
+  "f3ea9782-b004-4976-8a00-d3b24cef6831": {
+   "status": "unverified",
+   "name": "Biển Hồ T'Nưng"
+  },
+  "5d9f731f-9846-45b3-8d6e-a85be68145b4": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Phường Pleiku) 4.7 km, không có tham chiếu OSM",
+   "name": "Cầu Treo"
+  },
+  "645ecf86-7c89-440b-afdf-e9b9e894ce61": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Phường Hội Phú) 9.7 km, không có tham chiếu OSM",
+   "name": "Đường Thông"
+  },
+  "e7baad35-8b48-4ae5-8cd3-782062365bb2": {
+   "status": "verified",
+   "ref": "way/672575639",
+   "distance_m": 122,
+   "name": "Bảo tàng Pleiku"
+  },
+  "0651565e-8665-4292-91e2-27d822dc1c22": {
+   "status": "corrected",
+   "lng": 108.005989,
+   "lat": 13.982935,
+   "ref": "node/5997147685",
+   "kind": "historic=monument",
+   "moved_m": 675,
+   "from": [
+    108.0003,
+    13.9804
+   ],
+   "name": "Quảng trường Đại Đoàn Kết"
+  },
+  "c6ddcd37-0581-419c-a27a-556a05c43dc1": {
+   "status": "unverified",
+   "name": "Thị xã An Khê"
+  },
+  "e1accd2c-a8c4-4dec-86f1-744238bb686f": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Xã Ia Krái) 25.8 km, không có tham chiếu OSM",
+   "name": "Buôn Jun"
+  },
+  "0ecd6d4a-512b-47ac-a7ef-519eef670d87": {
+   "status": "unverified",
+   "name": "Cánh Đồng Điện Gió Ia Pidong"
+  },
+  "2c34b292-4034-4f9c-9068-e1db07bf280a": {
+   "status": "unverified",
+   "name": "Thác Kông Rỗng"
+  },
+  "323a62c4-e7e3-43dc-9246-4065b44e411b": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Phường Pleiku) 1.1 km, không có tham chiếu OSM",
+   "name": "Chùa Phật Tích Hùng Vương"
+  },
+  "350134b7-1ce5-47fd-97d2-4aaf83ff9ac0": {
+   "status": "unverified",
+   "name": "Khu Di Tích Chiến Trường Gia Lai"
+  },
+  "2668b1cc-c1ac-4ff9-b01f-77b9daeab7c2": {
+   "status": "unverified",
+   "name": "Hồ Ia Ly"
+  },
+  "e7e4e3ff-f960-4982-9772-518540f4423a": {
+   "status": "unverified",
+   "name": "Cơm Gà Pleiku Bà Gi"
+  },
+  "8875479e-7c66-4836-ab8e-28e2c0162c3f": {
+   "status": "unverified",
+   "name": "Hang Cẩm Lĩnh"
+  },
+  "50f62d21-0c7a-42a0-9d3b-0330249628ca": {
+   "status": "unverified",
+   "name": "Bảo Tàng Dân Tộc Học Gia Lai"
+  },
+  "2f4aa9e6-5545-453f-8868-aafe0c954961": {
+   "status": "unverified",
+   "name": "Núi Hồng Lợi"
+  },
+  "e255542e-20e1-4644-81e8-1d0233e35ee5": {
+   "status": "suspect",
+   "reason": "toạ độ cách xã/phường ghi trong nguồn (Xã Hra) 20.1 km, không có tham chiếu OSM",
+   "name": "Thác 7 Tầng"
+  },
+  "8d1ff7de-5811-434d-ab2b-526e24a08f32": {
+   "status": "corrected",
+   "lng": 107.996007,
+   "lat": 14.046859,
+   "ref": "node/13105153109",
+   "kind": "tourism=attraction",
+   "moved_m": 4766,
+   "from": [
+    108.0398,
+    14.0522
+   ],
+   "name": "Biển Hồ Pleiku"
+  },
+  "bcb9373c-4431-42f3-bc9b-1a232653a56c": {
+   "status": "unverified",
+   "name": "Hồ Từ Lệnh"
+  },
+  "585de781-f937-4290-946d-2f0e344aacea": {
+   "status": "unverified",
+   "name": "Thác Bản Cạc"
+  },
+  "34404ba4-89cc-41b8-8bfa-6bae21f6c76f": {
+   "status": "unverified",
+   "name": "Nhà thờ Gia Lai (Gia Lai Cathedral)"
+  },
+  "56bdf188-8d8a-4cae-8874-189b9403842f": {
+   "status": "unverified",
+   "name": "Chùa Bửu Minh Pleiku"
+  }
+ }
+}

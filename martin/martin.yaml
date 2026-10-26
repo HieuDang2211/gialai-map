@@ -1,0 +1,20 @@
+listen_addresses: "0.0.0.0:3000"
+# 0 = tắt cache trong bộ nhớ của Martin: gateway đã cache tile và API xoá được cache đó khi toạ độ đổi
+cache_size_mb: 0
+
+postgres:
+  connection_string: "postgresql://gialai:gialai@db:5432/gialai"
+  auto_publish: false
+  functions:
+    boundaries:
+      schema: public
+      function: tiles_boundaries
+      minzoom: 0
+      maxzoom: 16
+      bounds: [107.0, 12.5, 109.6, 15.0]
+    pois:
+      schema: public
+      function: tiles_pois
+      minzoom: 0
+      maxzoom: 18
+      bounds: [107.0, 12.5, 109.6, 15.0]

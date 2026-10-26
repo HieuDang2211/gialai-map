@@ -1,0 +1,175 @@
+name: gialai-map
+
+services:
+  # Nguồn dữ liệu gốc duy nhất: POI, danh mục, ranh giới hành chính
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: gialai
+      POSTGRES_USER: gialai
+      POSTGRES_PASSWORD: gialai
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gialai -d gialai"]
+      interval: 3s
+      retries: 30
+
+  # Sinh vector tile (MVT) động từ PostGIS
+  martin:
+    image: ghcr.io/maplibre/martin:v0.13.0
+    command: ["--config", "/config/martin.yaml"]
+    volumes:
+      - ./martin:/config:ro
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Máy tìm kiếm: không dấu, chịu lỗi gõ, lọc địa lý
+  meili:
+    image: getmeili/meilisearch:v1.11
+    environment:
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-dev-master-key-change-me}
+      MEILI_NO_ANALYTICS: "true"
+      MEILI_ENV: development
+    volumes:
+      - meilidata:/meili_data
+    ports:
+      - "7700:7700"
+
+  # API tìm kiếm + chi tiết địa điểm
+  api:
+    build: ./api
+    environment:
+      DATABASE_URL: postgresql://gialai:gialai@db:5432/gialai
+      MEILI_URL: http://meili:7700
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-dev-master-key-change-me}
+      IMAGE_BASE_URL: https://apigl.sns.org.vn
+      PORT: "8080"
+      # đặt trong file .env cạnh docker-compose.yml: GOOGLE_MAPS_API_KEY=...
+      GOOGLE_MAPS_API_KEY: ${GOOGLE_MAPS_API_KEY:-}
+      OSRM_URL: http://osrm:5000
+      OSRM_CAR_URL: http://osrm-car:5000
+      OSRM_FOOT_URL: http://osrm-foot:5000
+      # mã cho trang kiểm tra vị trí /review (đặt trong .env); để trống = tắt trang kiểm tra
+      REVIEW_TOKEN: ${REVIEW_TOKEN:-}
+    volumes:
+      - ./data:/data:ro
+      # /review ghi quyết định vào data/corrections/locations.json (mục "manual")
+      - ./data/corrections:/data/corrections
+      # xoá tile địa điểm đã cache ở gateway khi toạ độ đổi (api/src/tilecache.js)
+      - tilecache:/var/cache/nginx/tiles
+    depends_on:
+      db:
+        condition: service_healthy
+      meili:
+        condition: service_started
+
+  # Thu nhỏ + chuyển ảnh sang WebP theo kích thước hiển thị (thumbnail 56px không cần ảnh gốc 500 KB)
+  imgproxy:
+    image: ghcr.io/imgproxy/imgproxy:v3.24.1
+    environment:
+      # chỉ cho phép ảnh từ nguồn dữ liệu, tránh bị dùng làm proxy mở
+      IMGPROXY_ALLOWED_SOURCES: https://apigl.sns.org.vn/
+      IMGPROXY_ENFORCE_WEBP: "true"
+      IMGPROXY_QUALITY: "72"
+      IMGPROXY_TTL: "2592000"
+
+  # ---- Định tuyến (OSRM, profile xe máy). Hai bước một lần, chạy lại tự bỏ qua nếu dữ liệu không đổi.
+  # 1) tải bản trích OSM Việt Nam (Geofabrik) + cắt theo khung Gia Lai bằng osmium
+  osrm-prep:
+    build:
+      context: ./osrm
+      dockerfile: Dockerfile.prep
+    environment:
+      OSRM_BBOX: 107.0,12.5,109.6,15.0
+    volumes:
+      - osrmdata:/data
+
+  # 2) osrm-extract / partition / customize (MLD)
+  osrm-build:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    entrypoint: ["sh", "/opt/build.sh"]
+    volumes:
+      - osrmdata:/data
+      - ./osrm/motorbike.lua:/opt/motorbike.lua:ro
+      - ./osrm/build.sh:/opt/build.sh:ro
+    depends_on:
+      osrm-prep:
+        condition: service_completed_successfully
+
+  # 2b) cùng dữ liệu OSM, profile ô tô và đi bộ (có sẵn trong image OSRM)
+  osrm-build-car:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    entrypoint: ["sh", "/opt/build.sh"]
+    environment:
+      OSRM_NAME: gialai-car
+      OSRM_PROFILE: /opt/car.lua
+    volumes:
+      - osrmdata:/data
+      - ./osrm/build.sh:/opt/build.sh:ro
+    depends_on:
+      osrm-build:
+        condition: service_completed_successfully
+
+  osrm-build-foot:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    entrypoint: ["sh", "/opt/build.sh"]
+    environment:
+      OSRM_NAME: gialai-foot
+      OSRM_PROFILE: /opt/foot.lua
+    volumes:
+      - osrmdata:/data
+      - ./osrm/build.sh:/opt/build.sh:ro
+    depends_on:
+      osrm-build-car:
+        condition: service_completed_successfully
+
+  # máy chủ định tuyến (mỗi phương tiện một tiến trình): /route, /trip, /table — chỉ API nội bộ gọi
+  osrm:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    command: ["osrm-routed", "--algorithm", "mld", "--max-trip-size", "20", "--max-table-size", "100", "/data/gialai.osrm"]
+    volumes:
+      - osrmdata:/data:ro
+    depends_on:
+      osrm-build:
+        condition: service_completed_successfully
+
+  osrm-car:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    command: ["osrm-routed", "--algorithm", "mld", "--max-trip-size", "20", "--max-table-size", "100", "/data/gialai-car.osrm"]
+    volumes:
+      - osrmdata:/data:ro
+    depends_on:
+      osrm-build-car:
+        condition: service_completed_successfully
+
+  osrm-foot:
+    image: ghcr.io/project-osrm/osrm-backend:v6.0.0
+    command: ["osrm-routed", "--algorithm", "mld", "--max-trip-size", "20", "--max-table-size", "100", "/data/gialai-foot.osrm"]
+    volumes:
+      - osrmdata:/data:ro
+    depends_on:
+      osrm-build-foot:
+        condition: service_completed_successfully
+
+  # Cổng vào: phục vụ web tĩnh + cache tile như một CDN
+  gateway:
+    build: ./web
+    ports:
+      - "8088:80"
+    volumes:
+      - tilecache:/var/cache/nginx/tiles
+    depends_on:
+      - api
+      - martin
+      - imgproxy
+
+volumes:
+  pgdata:
+  meilidata:
+  tilecache:
+  osrmdata:

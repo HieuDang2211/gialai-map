@@ -1,0 +1,513 @@
+{
+ "source": "OpenStreetMap (Overpass API)",
+ "license": "ODbL 1.0",
+ "fetchedAt": "2026-10-16T07:35:44.714Z",
+ "bbox": {
+  "south": 13.88,
+  "west": 107.94,
+  "north": 14.065,
+  "east": 108.1
+ },
+ "items": [
+  {
+   "osmType": "node",
+   "osmId": 669531446,
+   "lat": 13.9724101,
+   "lng": 108.0146684,
+   "tags": {
+    "addr:housenumber": "01",
+    "addr:street": "Phù Đổng",
+    "internet_access": "wlan",
+    "name": "Hoang Anh Gia Lai",
+    "name:en": "HAGL Hotel",
+    "name:vi": "HAGL Hotel",
+    "opening_hours": "24/7",
+    "phone": "+84593718450",
+    "tourism": "hotel",
+    "website": "http://www.haglhotelpleiku.vn"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 669531452,
+   "lat": 13.9768221,
+   "lng": 108.0063047,
+   "tags": {
+    "name": "Hung Vuong",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 1380855990,
+   "lat": 13.9816803,
+   "lng": 108.0083891,
+   "tags": {
+    "name": "Pleiku Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3323156454,
+   "lat": 13.9765542,
+   "lng": 108.0008681,
+   "tags": {
+    "name": "Nhà khách CA tỉnh Gia Lai",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3323157102,
+   "lat": 13.9784438,
+   "lng": 108.0128308,
+   "tags": {
+    "name": "Ngọc Sê Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3323162400,
+   "lat": 14.0047517,
+   "lng": 107.9949812,
+   "tags": {
+    "name": "Khách Sạn Tây Đô",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3323162524,
+   "lat": 14.0009255,
+   "lng": 107.991416,
+   "tags": {
+    "name": "Khách Sạn Hoa Nam",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3323166837,
+   "lat": 14.0154888,
+   "lng": 107.9857726,
+   "tags": {
+    "name": "Dong Que Guest House",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3537735366,
+   "lat": 13.9794955,
+   "lng": 107.9992171,
+   "tags": {
+    "name": "Green Bamboo - Tre Xanh Plaza Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3537739562,
+   "lat": 13.9801201,
+   "lng": 107.9962988,
+   "tags": {
+    "name": "Duc Long Hotel 1",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3537743972,
+   "lat": 13.9771322,
+   "lng": 108.0021246,
+   "tags": {
+    "name": "Khách sạn tại Pleiku",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 3770199902,
+   "lat": 13.9738957,
+   "lng": 108.0151255,
+   "tags": {
+    "name": "Vinh Hoa",
+    "tourism": "guest_house"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 4807475423,
+   "lat": 13.9752664,
+   "lng": 108.0150953,
+   "tags": {
+    "name": "Pho Nui hotel",
+    "name:et": "Väga ok hotell",
+    "name:vi": "Pho Nui hotel",
+    "phone": "0593887379",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5395098321,
+   "lat": 13.9761863,
+   "lng": 108.0071666,
+   "tags": {
+    "addr:housenumber": "84",
+    "addr:street": "Hùng Vương",
+    "email": "dangxuapleiko@gmail.com",
+    "internet_access": "wlan",
+    "name": "Dang xua Hotel",
+    "phone": "059 382 4515",
+    "tourism": "guest_house"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5397604822,
+   "lat": 13.9767941,
+   "lng": 108.0022271,
+   "tags": {
+    "addr:housenumber": "84",
+    "addr:street": "Hùng Vương",
+    "internet_access": "wlan",
+    "name": "Dang xua hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5406828222,
+   "lat": 13.9700817,
+   "lng": 108.0149931,
+   "tags": {
+    "addr:street": "Trường Chinh",
+    "internet_access": "wlan",
+    "name": "Thu Hong",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5477741026,
+   "lat": 13.9698601,
+   "lng": 107.9944619,
+   "tags": {
+    "name": "Nha Nghi Soe Ham",
+    "tourism": "guest_house"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5679874023,
+   "lat": 13.9832385,
+   "lng": 107.9910458,
+   "tags": {
+    "name": "Gia Bảo",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5755816788,
+   "lat": 14.009646,
+   "lng": 107.9933928,
+   "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Đống Đa",
+    "addr:housenumber": "441",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phạm Văn Đồng",
+    "name": "Khách Sạn Duy Long",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 5755816789,
+   "lat": 14.0022398,
+   "lng": 107.9954162,
+   "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Thống Nhất",
+    "addr:housenumber": "294",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phạm Văn Đồng",
+    "brand": "Khách Sạn Hạ Trắng",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6470252470,
+   "lat": 13.9786826,
+   "lng": 107.9846887,
+   "tags": {
+    "name": "Nhà Nghỉ Vân Anh",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6470264594,
+   "lat": 13.9783018,
+   "lng": 107.9869938,
+   "tags": {
+    "name": "KS Thanh Bình",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6470283732,
+   "lat": 13.9802672,
+   "lng": 107.9894793,
+   "tags": {
+    "name": "Khách sạn Relax",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6473158632,
+   "lat": 13.9763667,
+   "lng": 107.9888586,
+   "tags": {
+    "name": "Khach San",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6475733926,
+   "lat": 13.969184,
+   "lng": 107.9889883,
+   "tags": {
+    "name": "ABC HOTEL",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6478315504,
+   "lat": 13.9684868,
+   "lng": 107.9921273,
+   "tags": {
+    "name": "Nhà Nghỉ Bình Minh",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6483448047,
+   "lat": 13.9654281,
+   "lng": 107.9919621,
+   "tags": {
+    "name": "Nhà Nghỉ Bình 133",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 6978672286,
+   "lat": 13.978379,
+   "lng": 108.0144463,
+   "tags": {
+    "name": "Hani House. Nice for bicycle",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 7090257288,
+   "lat": 13.9693812,
+   "lng": 107.9961152,
+   "tags": {
+    "addr:housenumber": "42",
+    "addr:street": "Đống Đa",
+    "internet_access": "wlan",
+    "name": "Lakeview Homestay",
+    "tourism": "guest_house"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 10859974205,
+   "lat": 13.9700198,
+   "lng": 108.0155972,
+   "tags": {
+    "addr:street": "Trường Chinh",
+    "internet_access": "wlan",
+    "name": "Nhà Nghỉ Thuỳ Dương",
+    "name:en": "Thuy duong motel",
+    "opening_hours": "24/7",
+    "tourism": "motel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 11683118549,
+   "lat": 13.9833095,
+   "lng": 108.0269102,
+   "tags": {
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "node",
+   "osmId": 14247237610,
+   "lat": 13.9799653,
+   "lng": 107.9986264,
+   "tags": {
+    "addr:city": "Pleiku",
+    "addr:housenumber": "9",
+    "addr:province": "Tỉnh Gia Lai",
+    "addr:street": "Hai Bà Trưng",
+    "name": "Tre Xanh Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1342195685,
+   "lat": 13.9705731,
+   "lng": 108.0157287,
+   "tags": {
+    "building": "yes",
+    "name": "Mường Thanh Gia Lai",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526289913,
+   "lat": 13.9698307,
+   "lng": 108.0184471,
+   "tags": {
+    "building": "yes",
+    "name": "Khách sạn MeKong Gia Lai",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526291303,
+   "lat": 13.9646939,
+   "lng": 108.0173026,
+   "tags": {
+    "building": "yes",
+    "name": "Hoài Thương Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526292806,
+   "lat": 13.963553,
+   "lng": 108.0204964,
+   "tags": {
+    "building": "yes",
+    "name": "Khách Sạn Minh Mạnh",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526294472,
+   "lat": 13.9799377,
+   "lng": 107.9992213,
+   "tags": {
+    "building": "yes",
+    "name": "Khách sạn Le Centre",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526297449,
+   "lat": 13.972615,
+   "lng": 107.9889669,
+   "tags": {
+    "building": "yes",
+    "name": "Diora Hotel & Apartment",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526301163,
+   "lat": 13.9814365,
+   "lng": 108.0001951,
+   "tags": {
+    "building": "yes",
+    "name": "Khách Sạn Elisa",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526302153,
+   "lat": 13.9703644,
+   "lng": 107.9995838,
+   "tags": {
+    "building": "yes",
+    "name": "Pleiku Highlands Boutique Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526304279,
+   "lat": 13.9794191,
+   "lng": 108.0106361,
+   "tags": {
+    "building": "yes",
+    "name": "Highlight House Hotel & Coffee",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526304707,
+   "lat": 13.978644,
+   "lng": 108.0112333,
+   "tags": {
+    "building": "yes",
+    "name": "Khách sạn Luxstay & Coffee",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1526305560,
+   "lat": 13.9706025,
+   "lng": 108.0263913,
+   "tags": {
+    "building": "yes",
+    "name": "Thảo Ngân Pleiku Hotel",
+    "tourism": "hotel"
+   }
+  },
+  {
+   "osmType": "way",
+   "osmId": 1564814503,
+   "lat": 13.9799601,
+   "lng": 107.9986488,
+   "tags": {
+    "addr:city": "Pleiku",
+    "addr:housenumber": "9",
+    "addr:province": "Tỉnh Gia Lai",
+    "addr:street": "Hai Bà Trưng",
+    "addr:subdistrict": "Phường Diên Hồng",
+    "building": "yes",
+    "name": "Tre Xanh Hotel",
+    "tourism": "hotel"
+   }
+  }
+ ]
+}
